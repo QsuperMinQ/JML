@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "JML",
+            "script": "npm",
+            "args": "start"
+        }
+    ]
+}
