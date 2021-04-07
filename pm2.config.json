@@ -3,7 +3,7 @@
         {
             "name": "JML",
             "script": "npm",
-            "args": "start"
+            "args": "serve"
         }
     ]
 }
