@@ -18,7 +18,7 @@ jobs:
       uses: actions/setup-node@master
     - run: npm install
     - run: npm run build
-    - run: tar -zcvf release.tgz vue/public vue/vue.config.js vue/package.json vue/package-lock.json
+    - run: tar -zcvf release.tgz public vue.config.js package.json package-lock.json
 
     # 发布 Release
     - name: Create Release
