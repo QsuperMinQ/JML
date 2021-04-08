@@ -15,7 +15,7 @@
       <div class="content-bg"></div>
     </div>
     <p class="content-text2">愿你成为自己的太阳</p>
-    <p class="content-text2">活成自己曾经渴望的模样。</p>
+    <p class="content-text2">活成自己曾经渴望的模样。^.^</p>
     <p class="content-text3">STRIVE | Since 2019</p>
     <div class="content-absolute">首页</div>
     <div class="content-fixed-right">
