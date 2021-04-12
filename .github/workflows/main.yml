@@ -12,6 +12,9 @@ jobs:
     # 下载源码
     - name: Checkout
       uses: actions/checkout@master
+      with:
+        repository: JML/vue
+        path: vue
 
     # 打包构建
     - name: Build
