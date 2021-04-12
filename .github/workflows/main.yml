@@ -13,11 +13,13 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
       with:
-        path: ../JML/vue
+        path: ./vue
 
     # 打包构建
     - name: Build
       uses: actions/setup-node@master
+      with:
+        path: ./vue
     - run: npm install
     - run: npm run build
     - run: tar -zcvf release.tgz vue.config.js package.json package-lock.json pm2.config.json src
