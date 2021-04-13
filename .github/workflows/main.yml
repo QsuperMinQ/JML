@@ -12,14 +12,15 @@ jobs:
     # 下载源码
     - name: Checkout
       uses: actions/checkout@master
+      
 
     # 打包构建
     - name: Build
       uses: actions/setup-node@master
-      with:
-        path: ./vue
     - run: npm install
+      working-directory: vue
     - run: npm run build
+      working-directory: vue
     - run: tar -zcvf release.tgz vue.config.js package.json package-lock.json pm2.config.json src
 
     # 发布 Release
