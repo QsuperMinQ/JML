@@ -22,6 +22,7 @@ jobs:
     - run: npm run build
       working-directory: vue
     - run: tar -zcvf release.tgz vue.config.js package.json package-lock.json pm2.config.json src
+      working-directory: vue
 
     # 发布 Release
     - name: Create Release
